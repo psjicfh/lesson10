@@ -12,4 +12,5 @@
 
 ###接口函数
     man 3 printf(scanf)  或者在函数名上按“K”
-
+###学习书籍
+http://billie66.github.com/TLCL/book/
