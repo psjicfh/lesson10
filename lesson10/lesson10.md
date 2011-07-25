@@ -13,7 +13,7 @@
     sudo apt-get purge packagename(软件名)
 
 ###vimtutor vim学习文档
-
+    akaedu@akaedu-desktop:~$ vimtutor
 ###接口函数
     man 3 printf(scanf)  或者在函数名上按“K”
 ###学习书籍
