@@ -38,6 +38,9 @@
     * master
       one_file_stare
       tmp
+###软件安装管理器
+    akaedu@akaedu-desktop:~$ dpkg -l  //显示安装过的软件包
+    akaedu@akaedu-desktop:~$ dpkg -L tree //软件安装包tree安装的文件
 
 ###学习书籍
 http://billie66.github.com/TLCL/book/    vim的
