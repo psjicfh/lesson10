@@ -3,6 +3,10 @@
 ###在github上上传文件夹
     akaedu@akaedu-desktop:~/work$ git commit -a -m "lesson10_2"
     akaedu@akaedu-desktop:~/work$ git push //注意前面路劲
+###上传一个文件夹里面有两个文件
+    akaedu@akaedu-desktop:~/work$ git add ./lesson10/lesson10_1.md
+    akaedu@akaedu-desktop:~/work$ git commit -a -m "lesson10_5"
+    akaedu@akaedu-desktop:~/work$ git push
 
 ###软件卸载
     sudo apt-get remove --purge packagename(软件名)
