@@ -14,8 +14,31 @@
 
 ###vimtutor vim学习文档
     akaedu@akaedu-desktop:~$ vimtutor
+
 ###接口函数
     man 3 printf(scanf)  或者在函数名上按“K”
+
+###查看工程历史
+    akaedu@akaedu-desktop:~$ psjicfh gource  //装软件
+    akaedu@akaedu-desktop:~/work/lesson7/lesson7-project$ gource  //注意路径
+
+###给master作备份
+    akaedu@akaedu-desktop:~/work/lesson7/lesson7-project$ git branch
+    * master
+      one_file_stare
+    akaedu@akaedu-desktop:~/work/lesson7/lesson7-project$ git checkout -b tmp //注：此处可省略40位版本号
+    Switched to a new branch 'tmp'
+    akaedu@akaedu-desktop:~/work/lesson7/lesson7-project$ git branch
+      master
+      one_file_stare
+    * tmp
+    akaedu@akaedu-desktop:~/work/lesson7/lesson7-project$ git checkout master 
+    Switched to branch 'master'
+    akaedu@akaedu-desktop:~/work/lesson7/lesson7-project$ git branch
+    * master
+      one_file_stare
+      tmp
+
 ###学习书籍
 http://billie66.github.com/TLCL/book/    vim的
 
