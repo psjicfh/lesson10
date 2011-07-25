@@ -46,3 +46,5 @@
 http://billie66.github.com/TLCL/book/    vim的
 
 http://progit.org/book/zh/               git的
+
+http://www.wikipedia.org/
