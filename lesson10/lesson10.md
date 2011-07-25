@@ -1,6 +1,15 @@
-son10笔记
+#lesson10笔记
 
 ###在github上上传文件夹
 
-sudo apt-get remove --purge packagename(软件名)
+
+###软件卸载
+    sudo apt-get remove --purge packagename(软件名)
+    sudo apt-get purge packagename(软件名)
+
+vimtutor vim学习文档
+
+
+#接口函数
+    man 3 printf(scanf)  或者在函数名上按“K”
 
